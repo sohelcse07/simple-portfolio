@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after,
+body {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: normal;
+    font-style: normal;
+}
+
+nav {
+    border-radius: 0 0 8px 8px;
+}
+
+.raleway {
+    font-family: "Raleway", sans-serif;
+}
+
+.description {
+    line-height: 24px;
+    /* 171.429% */
+    letter-spacing: 0.14px;
+}
+
+button {
+    border-radius: 4px;
+    border: 1px solid #62BA1B;
+    background: #3F8E00;
+    box-shadow: 0px 8px 30px 0px rgba(63, 142, 0, 0.50);
+}
+
+#navLinks>a {
+    color: #9C9C9C;
+}
+
+#navImages {
+    height: 17px;
+}
+
+#navImages>img {
+    height: full;
+}
+
+footer>div{
+    border: 1px solid #1B1B1B;
+    border-radius: 6px;
+    height: 60px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
